@@ -41,7 +41,7 @@
                     <nav class="menu">
                         <a href="#inicio">Inicio</a>
                         <a href="#acerca">Sobre nosotros</a>
-                        <a href="#menu">Carta y Menú</a>
+                        <a href="full_menu.html">Carta y Menú</a>
                     </nav>
                 </div>
             </div>
@@ -54,7 +54,26 @@
                 <div class="hero_image_content">
                     <h2 class="hero_image_title">Bienvenidos</h2>
                     <h3 class="hero_image_subtitle">A tu restaurante chinchano <br />favorito</h3>
-                    <a href="#menu" class="btn" style="--btn_margin_top: 1rem;">Carta y Menú</a>
+                    <a 
+                        href="full_menu.html" 
+                        class="link" 
+                        style="
+                            --btn_margin_top: 1rem;
+                            display: inline-block;
+                            padding: 0.75rem 1.5rem;
+                            background-color: #b33939;
+                            color: #fff;
+                            border-radius: 0.5rem;
+                            text-decoration: none;
+                            font-weight: bold;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                            transition: background-color 0.3s;
+                        "
+                        onmouseover="this.style.backgroundColor='#992e2e';"
+                        onmouseout="this.style.backgroundColor='#b33939';"
+                        >
+                        Carta y Menú
+                    </a>
                 </div>
             </aside>
         </article>
@@ -77,10 +96,6 @@
             </p>
         </div>
         </article>
-    </section>
-
-    <section id="menu" class="food section container">
-        <a class="link" href="./full_menu.html">Ver carta y menú</a>
     </section>
 
     <!--  Scripts  -->
